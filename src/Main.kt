@@ -3,7 +3,8 @@
 
 fun main() {
     print("Введите текст: ")
-    val str = readln()
+    val s = readln()
+    val str = s.uppercase()
     var str2 = ""
     var count = 1
     for (i in 0 until str.length - 1) {
